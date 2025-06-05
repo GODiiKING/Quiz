@@ -5,7 +5,7 @@ const Data = [
       b: "Blogging",
       c: "Software updates",
       d: "Online gaming",
-      correct: "a",
+      correct: "a", // Question 1
     },
     {
       question: "Why are companies vulnerable to cybercrime?",
@@ -13,7 +13,7 @@ const Data = [
       b: "Their employees are always hackers",
       c: "They use the internet and store sensitive data",
       d: "They don’t allow internet access",
-      correct: "c",
+      correct: "c", // Question 2
     },
     {
       question: "What can happen if your personal data is stolen?",
@@ -21,7 +21,7 @@ const Data = [
       b: "Your identity can be misused",
       c: "Your screen turns black",
       d: "our battery dies",
-      correct: "b",
+      correct: "b", // Question 3
     },
     {
       question: "Which network protocol is often used to access the Dark Web?",
@@ -29,7 +29,7 @@ const Data = [
       b: "FTP",
       c: "Tor",
       d: "SMTP",
-      correct: "c",
+      correct: "c", // Question 4
     },
     {
       question: "What does VPN stand for?",
@@ -37,7 +37,7 @@ const Data = [
       b: "Very Personal Network",
       c: "Video Processing Node",
       d: "Verified Public Network",
-      correct: "a",
+      correct: "a", // Question 5
     },
     {
       question: "How can you check if a website is secure?",
@@ -45,7 +45,7 @@ const Data = [
       b: "It has “https” and a padlock icon",
       c: "The page loads slowly",
       d: "It contains many ads",
-      correct: "b",
+      correct: "b", // Question 6
     },
     {
       question: "What is a DDoS attack?",
@@ -53,7 +53,7 @@ const Data = [
       b: "Overloads a website with traffic",
       c: "A type of phishing attack",
       d: "A password cracking technique",
-      correct: "b",
+      correct: "b", // Question 7
     },
     {
       question: "Which of these is a strong password?",
@@ -61,7 +61,7 @@ const Data = [
       b: "Password",
       c: "S7&xP!9bL#2q",
       d: "yourname",
-      correct: "c",
+      correct: "c", // Question 8
     },
     {
       question: "What is encryption?",
@@ -69,7 +69,7 @@ const Data = [
       b: "A software update",
       c: "A type of cyber attack",
       d: "A social media platform",
-      correct: "a",
+      correct: "a", // Question 9
     },
     {
       question: "What does “anonymity” on the Dark Web mean?",
@@ -77,7 +77,7 @@ const Data = [
       b: "Your identity and location are hidden",
       c: "You have to pay money to join",
       d: "You can only browse websites without logging in",
-      correct: "b",
+      correct: "b", // Question 10
     },
     {
       question: "What is a “zero-day” vulnerability?",
@@ -85,7 +85,7 @@ const Data = [
       b: "A software flaw ",
       c: "A virus that lasts only one day",
       d: "A backup file",
-      correct: "b",
+      correct: "b", // Question 11
     },
     {
       question: "What is a “backdoor” in cybersecurity?",
@@ -93,7 +93,7 @@ const Data = [
       b: "A new software update",
       c: "A firewall setting",
       d: "A social engineering technique",
-      correct: "a",
+      correct: "a", // Question 12
     },
     {
       question: "What is “White Hats” hacker?",
@@ -101,7 +101,23 @@ const Data = [
       b: "improve security by ethical hacking",
       c: "To sell stolen data",
       d: "To spread malware",
-      correct: "b",
+      correct: "b", // Question 13
+    },
+    {
+      question: "What is “spoofing” in cybersecurity?",
+      a: "Sending fake emails",
+      b: "Deleting files accidentally",
+      c: "A software update",
+      d: "A type of encryption",
+      correct: "a", // Question 14
+    },
+    {
+      question: "What is a firewall?",
+      a: "A security system",
+      b: "A type of virus",
+      c: "A social media app",
+      d: "A web browser",
+      correct: "a", // Question 15
     },
     // {
     //   question: "",
