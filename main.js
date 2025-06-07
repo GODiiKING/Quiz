@@ -20,7 +20,7 @@ const Data = [
       a: "You get free internet",
       b: "Your identity can be misused",
       c: "Your screen turns black",
-      d: "our battery dies",
+      d: "Your battery dies",
       correct: "b", // Question 3
     },
     {
@@ -96,7 +96,7 @@ const Data = [
       correct: "a", // Question 12
     },
     {
-      question: "What is “White Hats” hacker?",
+      question: "What is “White Hat” hacker?",
       a: "To perform illegal activities",
       b: "improve security by ethical hacking",
       c: "To sell stolen data",
@@ -145,6 +145,8 @@ const Data = [
   
   let currentQuiz = 0;
   let score = 0;
+
+  
   
   loadQuiz();
   function loadQuiz() {
@@ -179,7 +181,7 @@ const Data = [
     if (currentQuiz.valueOf() === 0) {
       alert("Can't go back anymore");
     } else {
-      initialQuiz--;
+      currentQuiz--;
       loadQuiz();
     }
   }
