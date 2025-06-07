@@ -2,6 +2,11 @@
 
 An interactive web-based quiz application designed to test and enhance knowledge about cybercrime, cybersecurity threats, and digital safety practices.
 
+## 🖼️ Screenshots
+
+### Homepage
+![Homepage Screenshot](assets/images/homepage.png)
+
 ## 🌟 Features
 
 - **Interactive Quiz Experience**: Navigate through questions carefully crafted multiple-choice questions
@@ -55,11 +60,16 @@ The quiz covers essential cybersecurity concepts including:
 
 ```
 fighting-cybercrime-quiz/
-├── index.html          # Main HTML structure
-├── style.css           # Styling and layout
-├── main.js            # Quiz logic and interactivity
-├── README.md          # Project documentation
-└── LICENSE            # MIT License
+├── assets/
+│   └── images/
+│       ├── homepage.png
+│       ├── quiz-interface.png
+│       └── results-page.png
+├── index.html
+├── style.css
+├── main.js
+├── README.md
+└── LICENSE
 ```
 
 ## 🛠️ Technical Implementation
